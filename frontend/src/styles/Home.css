@@ -1,0 +1,85 @@
+/* Overall layout */
+.home-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fb;
+  font-family: "Inter", sans-serif;
+}
+
+/* Card container */
+.home-card {
+  background: #fff;
+  padding: 3rem;
+  width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+/* Headings */
+.home-subtitle {
+  color: #6b7280;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.home-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #111827;
+}
+
+/* Profile section */
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  border: 2px solid #e5e7eb;
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  background-color: #f9fafb;
+  color: #374151;
+}
+
+.input:read-only {
+  cursor: not-allowed;
+}
+
+/* Button */
+.btn-primary {
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
